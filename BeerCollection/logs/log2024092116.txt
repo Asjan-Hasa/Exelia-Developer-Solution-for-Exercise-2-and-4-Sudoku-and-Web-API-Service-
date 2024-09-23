@@ -1,0 +1,123 @@
+2024-09-21 16:45:29.199 +02:00 [ERR] An unhandled exception occurred in : /BeerCollection
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.Average[TSource,TSelector,TAccumulator,TResult](IEnumerable`1 source, Func`2 selector)
+   at DAL.Mappings.BeerMapping.Mapping.CreateModelFromEntity(Beer beer) in C:\Users\asjan\source\repos\BeerCollection\DAL\Mappings\BeerMapping\Mapping.cs:line 14
+   at DAL.Repositories.Implementation.BeerCollectionRepository.<>c.<GetBeerCollection>b__2_0(Beer b) in C:\Users\asjan\source\repos\BeerCollection\DAL\Repositories\Implementation\BeerCollectionRepository.cs:line 51
+   at System.Linq.Enumerable.SelectListIterator`2.Fill(ReadOnlySpan`1 source, Span`1 destination, Func`2 func)
+   at System.Linq.Enumerable.SelectListIterator`2.ToList()
+   at DAL.Repositories.Implementation.BeerCollectionRepository.GetBeerCollection() in C:\Users\asjan\source\repos\BeerCollection\DAL\Repositories\Implementation\BeerCollectionRepository.cs:line 51
+   at BLL.Services.Implementation.BeerCollectionService.GetBeerCollection() in C:\Users\asjan\source\repos\BeerCollection\BLL\Services\Implementation\BeerCollectionService.cs:line 28
+   at BeerCollection.Controllers.BeerCollectionController.GetBeerCollection() in C:\Users\asjan\source\repos\BeerCollection\BeerCollection\Controllers\BeerCollectionController.cs:line 18
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at BeerCollection.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\asjan\source\repos\BeerCollection\BeerCollection\Middlewares\ExceptiionMiddleware.cs:line 21
+2024-09-21 16:48:13.536 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 16:48:13.557 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 16:48:13.559 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 16:48:13.559 +02:00 [INF] Hosting environment: Development
+2024-09-21 16:48:13.559 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 16:48:14.144 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 16:48:14.316 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 175.8058ms
+2024-09-21 16:48:14.318 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 16:48:14.318 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 16:48:14.321 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 4.0913ms
+2024-09-21 16:48:14.347 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.3631ms
+2024-09-21 16:48:14.378 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 16:48:14.391 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET BeerCollection" for actions - BeerCollection.Controllers.BeerCollectionController.GetBeerCollection (BeerCollection),BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-21 16:48:14.406 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 27.9594ms
+2024-09-21 16:53:31.829 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 16:53:31.851 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 16:53:31.852 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 16:53:31.852 +02:00 [INF] Hosting environment: Development
+2024-09-21 16:53:31.853 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 16:53:32.333 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 16:53:32.496 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 167.4562ms
+2024-09-21 16:53:32.500 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 16:53:32.500 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 16:53:32.503 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.2452ms
+2024-09-21 16:53:32.533 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.4733ms
+2024-09-21 16:53:32.565 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 16:53:32.617 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 52.5272ms
+2024-09-21 16:53:44.839 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=Heineken - null null
+2024-09-21 16:53:44.902 +02:00 [ERR] An unhandled exception occurred in : /api/BeerCollection/SearchBeer
+System.InvalidOperationException: Endpoint BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection) contains CORS metadata, but a middleware was not found that supports CORS.
+Configure your application startup by adding app.UseCors() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseCors() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingCorsMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at BeerCollection.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\asjan\source\repos\BeerCollection\BeerCollection\Middlewares\ExceptiionMiddleware.cs:line 21
+2024-09-21 16:53:44.921 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=Heineken - 500 655 application/json 81.3996ms
+2024-09-21 16:54:29.887 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 16:54:29.909 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 16:54:29.910 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 16:54:29.911 +02:00 [INF] Hosting environment: Development
+2024-09-21 16:54:29.911 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 16:54:30.552 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 16:54:30.716 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 167.3006ms
+2024-09-21 16:54:30.719 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 16:54:30.719 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 16:54:30.722 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.1202ms
+2024-09-21 16:54:30.746 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.131ms
+2024-09-21 16:54:30.777 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 16:54:30.830 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.0597ms
+2024-09-21 16:54:37.232 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=Heineken - null null
+2024-09-21 16:54:37.249 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 16:54:37.268 +02:00 [INF] Route matched with {action = "SearchBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchBeer(System.String) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 16:55:45.852 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 16:55:45.872 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 16:55:45.873 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 16:55:45.874 +02:00 [INF] Hosting environment: Development
+2024-09-21 16:55:45.874 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 16:55:46.502 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 16:55:46.672 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 174.1011ms
+2024-09-21 16:55:46.676 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 16:55:46.676 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 16:55:46.680 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.8062ms
+2024-09-21 16:55:46.704 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.4686ms
+2024-09-21 16:55:46.742 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 16:55:46.796 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.5082ms
+2024-09-21 16:55:53.041 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=Heineken - null null
+2024-09-21 16:55:53.056 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 16:55:53.072 +02:00 [INF] Route matched with {action = "SearchBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchBeer(System.String) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 16:55:54.124 +02:00 [INF] Executed DbCommand (26ms) [Parameters=[@__value_0_contains='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[Name] LIKE @__value_0_contains ESCAPE N'\'
+2024-09-21 16:55:54.231 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 16:55:54.259 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.BeerModel'.
+2024-09-21 16:55:54.272 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection) in 1197.4165ms
+2024-09-21 16:55:54.272 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 16:55:54.278 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=Heineken - 200 null application/json; charset=utf-8 1236.7464ms
+2024-09-21 16:56:03.384 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=Heineken1 - null null
+2024-09-21 16:56:03.386 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 16:56:03.386 +02:00 [INF] Route matched with {action = "SearchBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchBeer(System.String) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 16:56:03.426 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__value_0_contains='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[Name] LIKE @__value_0_contains ESCAPE N'\'
+2024-09-21 16:56:03.426 +02:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2024-09-21 16:56:03.426 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection) in 39.6407ms
+2024-09-21 16:56:03.426 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 16:56:03.426 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=Heineken1 - 204 null null 42.346ms

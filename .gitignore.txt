@@ -1,0 +1,55 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bin/
+obj/
+
+# Visual Studio
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vs/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!.nuget/packages/
+
+# Environment Variables
+.env
+
+# ASP.NET Core
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.json
+
+# Publish folder
+publish/
+
+# Temporary files
+*.tmp
+*.temp
+
+# JetBrains Rider files
+.idea/
+*.sln.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local History for JetBrains IDEs
+.localhistory/

@@ -1,0 +1,850 @@
+2024-09-21 17:01:27.911 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 17:01:27.936 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 17:01:27.937 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 17:01:27.937 +02:00 [INF] Hosting environment: Development
+2024-09-21 17:01:27.937 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 17:01:28.231 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 17:01:28.417 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 189.4787ms
+2024-09-21 17:01:28.421 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 17:01:28.421 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 17:01:28.425 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.8756ms
+2024-09-21 17:01:28.446 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.7333ms
+2024-09-21 17:01:28.481 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 17:01:28.496 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - BeerCollection.Controllers.BaseController.GetReturnMessage (BeerCollection). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-21 17:01:28.511 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 29.5566ms
+2024-09-21 17:01:51.511 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 17:01:51.531 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 17:01:51.532 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 17:01:51.533 +02:00 [INF] Hosting environment: Development
+2024-09-21 17:01:51.533 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 17:01:52.244 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 17:01:52.403 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 162.05ms
+2024-09-21 17:01:52.406 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 17:01:52.406 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 17:01:52.409 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.1437ms
+2024-09-21 17:01:52.433 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.6233ms
+2024-09-21 17:01:52.461 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 17:01:52.474 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - BeerCollection.Controllers.BaseController.GetReturnMessage (BeerCollection). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-21 17:01:52.488 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 27.2592ms
+2024-09-21 17:02:18.352 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 17:02:18.372 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 17:02:18.373 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 17:02:18.373 +02:00 [INF] Hosting environment: Development
+2024-09-21 17:02:18.373 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 17:02:18.923 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 17:02:19.101 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 181.8074ms
+2024-09-21 17:02:19.104 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 17:02:19.104 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 17:02:19.110 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 5.9553ms
+2024-09-21 17:02:19.131 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.3628ms
+2024-09-21 17:02:19.157 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 17:02:19.211 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.5103ms
+2024-09-21 17:02:27.613 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 17:02:27.636 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 17:02:27.638 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 17:02:27.638 +02:00 [INF] Hosting environment: Development
+2024-09-21 17:02:27.638 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 17:02:27.887 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 17:02:28.046 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 163.6758ms
+2024-09-21 17:02:28.050 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 17:02:28.050 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 17:02:28.053 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.072ms
+2024-09-21 17:02:28.076 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.6307ms
+2024-09-21 17:02:28.107 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 17:02:28.161 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 54.264ms
+2024-09-21 17:02:35.038 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer - null null
+2024-09-21 17:02:35.052 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:02:35.065 +02:00 [INF] Route matched with {action = "SearchBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchBeer(System.String) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:02:35.178 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Models.ModelStateError'.
+2024-09-21 17:02:35.186 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection) in 118.6486ms
+2024-09-21 17:02:35.186 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:02:35.187 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer - 400 null application/json; charset=utf-8 149.2837ms
+2024-09-21 17:02:50.856 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 17:02:50.880 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 17:02:50.881 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 17:02:50.881 +02:00 [INF] Hosting environment: Development
+2024-09-21 17:02:50.881 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 17:02:51.493 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 17:02:51.669 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 180.126ms
+2024-09-21 17:02:51.674 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 17:02:51.674 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 17:02:51.678 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.3639ms
+2024-09-21 17:02:51.702 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.3343ms
+2024-09-21 17:02:51.740 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 17:02:51.794 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 54.0385ms
+2024-09-21 17:02:57.371 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer - null null
+2024-09-21 17:02:57.386 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:02:57.403 +02:00 [INF] Route matched with {action = "SearchBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchBeer(System.String) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:02:58.465 +02:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE 0 = 1
+2024-09-21 17:02:58.485 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.ResultModel'.
+2024-09-21 17:02:58.493 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection) in 1087.3043ms
+2024-09-21 17:02:58.493 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:02:58.498 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer - 200 null application/json; charset=utf-8 1127.5995ms
+2024-09-21 17:03:28.505 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 17:03:28.525 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 17:03:28.526 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 17:03:28.526 +02:00 [INF] Hosting environment: Development
+2024-09-21 17:03:28.526 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 17:03:29.099 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 17:03:29.275 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 178.8728ms
+2024-09-21 17:03:29.278 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 17:03:29.278 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 17:03:29.281 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.4826ms
+2024-09-21 17:03:29.305 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.5439ms
+2024-09-21 17:03:29.337 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 17:03:29.393 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 55.6104ms
+2024-09-21 17:03:34.526 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=h - null null
+2024-09-21 17:03:34.539 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:03:34.552 +02:00 [INF] Route matched with {action = "SearchBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchBeer(System.String) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:03:35.641 +02:00 [INF] Executed DbCommand (23ms) [Parameters=[@__value_0_contains='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[Name] LIKE @__value_0_contains ESCAPE N'\'
+2024-09-21 17:03:35.756 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:03:35.784 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.BeerModel'.
+2024-09-21 17:03:35.800 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection) in 1244.9284ms
+2024-09-21 17:03:35.800 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:03:35.805 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=h - 200 null application/json; charset=utf-8 1279.0179ms
+2024-09-21 17:03:40.220 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=a - null null
+2024-09-21 17:03:40.222 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:03:40.222 +02:00 [INF] Route matched with {action = "SearchBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchBeer(System.String) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:03:40.261 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__value_0_contains='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[Name] LIKE @__value_0_contains ESCAPE N'\'
+2024-09-21 17:03:40.263 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:03:47.812 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'DAL.Entities.BeerCollectionContext'.
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.Average[TSource,TSelector,TAccumulator,TResult](IEnumerable`1 source, Func`2 selector)
+   at DAL.Mappings.BeerMapping.Mapping.CreateModelFromEntity(Beer beer) in C:\Users\asjan\source\repos\BeerCollection\DAL\Mappings\BeerMapping\Mapping.cs:line 14
+   at lambda_method10(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.Average[TSource,TSelector,TAccumulator,TResult](IEnumerable`1 source, Func`2 selector)
+   at DAL.Mappings.BeerMapping.Mapping.CreateModelFromEntity(Beer beer) in C:\Users\asjan\source\repos\BeerCollection\DAL\Mappings\BeerMapping\Mapping.cs:line 14
+   at lambda_method10(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-09-21 17:03:48.655 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection) in 8432.8244ms
+2024-09-21 17:03:48.656 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:03:48.667 +02:00 [ERR] An unhandled exception occurred in : /api/BeerCollection/SearchBeer
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at System.Linq.Enumerable.Average[TSource,TSelector,TAccumulator,TResult](IEnumerable`1 source, Func`2 selector)
+   at DAL.Mappings.BeerMapping.Mapping.CreateModelFromEntity(Beer beer) in C:\Users\asjan\source\repos\BeerCollection\DAL\Mappings\BeerMapping\Mapping.cs:line 14
+   at lambda_method10(Closure, QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method11(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at DAL.Repositories.Implementation.BeerCollectionRepository.SearchBeer(String value) in C:\Users\asjan\source\repos\BeerCollection\DAL\Repositories\Implementation\BeerCollectionRepository.cs:line 96
+   at BLL.Services.Implementation.BeerCollectionService.SearchBeer(String value) in C:\Users\asjan\source\repos\BeerCollection\BLL\Services\Implementation\BeerCollectionService.cs:line 38
+   at BeerCollection.Controllers.BeerCollectionController.SearchBeer(String value) in C:\Users\asjan\source\repos\BeerCollection\BeerCollection\Controllers\BeerCollectionController.cs:line 22
+   at lambda_method4(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at BeerCollection.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in C:\Users\asjan\source\repos\BeerCollection\BeerCollection\Middlewares\ExceptiionMiddleware.cs:line 21
+2024-09-21 17:03:48.680 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=a - 500 262 application/json 8460.6932ms
+2024-09-21 17:03:59.064 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 17:03:59.087 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 17:03:59.088 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 17:03:59.089 +02:00 [INF] Hosting environment: Development
+2024-09-21 17:03:59.089 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 17:03:59.736 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 17:03:59.911 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 179.2777ms
+2024-09-21 17:03:59.915 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 17:03:59.915 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 17:03:59.918 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.4091ms
+2024-09-21 17:03:59.943 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.8173ms
+2024-09-21 17:03:59.975 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 17:04:00.029 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 54.7221ms
+2024-09-21 17:04:11.309 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=a - null null
+2024-09-21 17:04:11.323 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:04:11.335 +02:00 [INF] Route matched with {action = "SearchBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchBeer(System.String) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:04:12.381 +02:00 [INF] Executed DbCommand (26ms) [Parameters=[@__value_0_contains='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[Name] LIKE @__value_0_contains ESCAPE N'\'
+2024-09-21 17:04:12.494 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:04:12.506 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.BeerModel'.
+2024-09-21 17:04:12.518 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection) in 1180.4979ms
+2024-09-21 17:04:12.519 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:04:12.524 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=a - 200 null application/json; charset=utf-8 1215.4352ms
+2024-09-21 17:04:26.452 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=r - null null
+2024-09-21 17:04:26.454 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:04:26.454 +02:00 [INF] Route matched with {action = "SearchBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchBeer(System.String) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:04:26.494 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__value_0_contains='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[Name] LIKE @__value_0_contains ESCAPE N'\'
+2024-09-21 17:04:26.496 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:04:26.496 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.BeerModel'.
+2024-09-21 17:04:26.496 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection) in 42.0188ms
+2024-09-21 17:04:26.496 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:04:26.497 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=r - 200 null application/json; charset=utf-8 44.9418ms
+2024-09-21 17:04:29.176 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=r - null null
+2024-09-21 17:04:29.177 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:04:29.177 +02:00 [INF] Route matched with {action = "SearchBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchBeer(System.String) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:04:29.191 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__value_0_contains='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[Name] LIKE @__value_0_contains ESCAPE N'\'
+2024-09-21 17:04:29.193 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:04:29.193 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.BeerModel'.
+2024-09-21 17:04:29.193 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection) in 16.2845ms
+2024-09-21 17:04:29.193 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:04:29.193 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=r - 200 null application/json; charset=utf-8 17.6928ms
+2024-09-21 17:06:24.776 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 17:06:24.797 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 17:06:24.798 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 17:06:24.798 +02:00 [INF] Hosting environment: Development
+2024-09-21 17:06:24.798 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 17:06:25.493 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 17:06:25.662 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 172.7522ms
+2024-09-21 17:06:25.666 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 17:06:25.666 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 17:06:25.670 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.728ms
+2024-09-21 17:06:25.692 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.789ms
+2024-09-21 17:06:25.721 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 17:06:25.780 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.3014ms
+2024-09-21 17:06:30.981 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=cor - null null
+2024-09-21 17:06:30.995 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:06:31.007 +02:00 [INF] Route matched with {action = "SearchBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchBeer(System.String) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:06:32.145 +02:00 [INF] Executed DbCommand (24ms) [Parameters=[@__value_0_contains='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[Name] LIKE @__value_0_contains ESCAPE N'\'
+2024-09-21 17:06:32.251 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:06:32.263 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.BeerModel'.
+2024-09-21 17:06:32.275 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection) in 1265.6521ms
+2024-09-21 17:06:32.276 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:06:32.281 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=cor - 200 null application/json; charset=utf-8 1300.5798ms
+2024-09-21 17:06:36.293 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=co - null null
+2024-09-21 17:06:36.295 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:06:36.296 +02:00 [INF] Route matched with {action = "SearchBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchBeer(System.String) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:06:36.335 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__value_0_contains='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[Name] LIKE @__value_0_contains ESCAPE N'\'
+2024-09-21 17:06:36.338 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:06:36.338 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.BeerModel'.
+2024-09-21 17:06:36.339 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection) in 42.7025ms
+2024-09-21 17:06:36.339 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:06:36.339 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=co - 200 null application/json; charset=utf-8 45.6085ms
+2024-09-21 17:06:41.186 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=b - null null
+2024-09-21 17:06:41.187 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:06:41.187 +02:00 [INF] Route matched with {action = "SearchBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchBeer(System.String) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:06:41.203 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__value_0_contains='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[Name] LIKE @__value_0_contains ESCAPE N'\'
+2024-09-21 17:06:41.205 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:06:41.206 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.BeerModel'.
+2024-09-21 17:06:41.206 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection) in 18.7366ms
+2024-09-21 17:06:41.206 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:06:41.206 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=b - 200 null application/json; charset=utf-8 20.3173ms
+2024-09-21 17:06:48.265 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=e - null null
+2024-09-21 17:06:48.265 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:06:48.266 +02:00 [INF] Route matched with {action = "SearchBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SearchBeer(System.String) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:06:48.267 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__value_0_contains='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[Name] LIKE @__value_0_contains ESCAPE N'\'
+2024-09-21 17:06:48.268 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:06:48.286 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.BeerModel'.
+2024-09-21 17:06:48.286 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection) in 20.7446ms
+2024-09-21 17:06:48.286 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.SearchBeer (BeerCollection)'
+2024-09-21 17:06:48.287 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/BeerCollection/SearchBeer?value=e - 200 null application/json; charset=utf-8 21.9797ms
+2024-09-21 17:08:06.354 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 17:08:06.376 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 17:08:06.377 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 17:08:06.377 +02:00 [INF] Hosting environment: Development
+2024-09-21 17:08:06.377 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 17:08:07.055 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 17:08:07.255 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 203.6653ms
+2024-09-21 17:08:07.258 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 17:08:07.258 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 17:08:07.265 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 6.535ms
+2024-09-21 17:08:07.288 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.3532ms
+2024-09-21 17:08:07.326 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 17:08:07.388 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.9112ms
+2024-09-21 17:08:37.561 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 17:08:37.583 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 17:08:37.584 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 17:08:37.584 +02:00 [INF] Hosting environment: Development
+2024-09-21 17:08:37.584 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 17:08:38.072 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 17:08:38.278 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 208.8685ms
+2024-09-21 17:08:38.280 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 17:08:38.280 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 17:08:38.285 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 5.4747ms
+2024-09-21 17:08:38.316 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.9673ms
+2024-09-21 17:08:38.349 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 17:08:38.426 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.3628ms
+2024-09-21 17:08:42.251 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - null 0
+2024-09-21 17:08:42.256 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:08:42.260 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:08:42.275 +02:00 [INF] Route matched with {action = "AddEditBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEditBeer(Models.BeerModel) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:08:43.159 +02:00 [INF] Executed DbCommand (28ms) [Parameters=[@p0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Beer] ([Name])
+OUTPUT INSERTED.[BeerId]
+VALUES (@p0);
+2024-09-21 17:08:43.189 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.ResultModel'.
+2024-09-21 17:08:43.197 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection) in 919.1439ms
+2024-09-21 17:08:43.197 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:08:43.202 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - 200 null application/json; charset=utf-8 951.6052ms
+2024-09-21 17:09:29.654 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 17:09:29.677 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 17:09:29.679 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 17:09:29.679 +02:00 [INF] Hosting environment: Development
+2024-09-21 17:09:29.679 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 17:09:30.232 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 17:09:30.406 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 178.4518ms
+2024-09-21 17:09:30.409 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 17:09:30.409 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 17:09:30.412 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.149ms
+2024-09-21 17:09:30.437 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.2989ms
+2024-09-21 17:09:30.476 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 17:09:30.534 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 58.2627ms
+2024-09-21 17:09:34.786 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - null 0
+2024-09-21 17:09:34.790 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:09:34.796 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:09:34.812 +02:00 [INF] Route matched with {action = "AddEditBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEditBeer(Models.BeerModel) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:09:35.711 +02:00 [INF] Executed DbCommand (33ms) [Parameters=[@p0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Beer] ([Name])
+OUTPUT INSERTED.[BeerId]
+VALUES (@p0);
+2024-09-21 17:09:35.735 +02:00 [ERR] An exception occurred in the database while saving changes for context type 'DAL.Entities.BeerCollectionContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Name', table 'BeerCollection.dbo.Beer'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:211c830e-7192-47d7-b695-0cf75d7cdb1f
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'Name', table 'BeerCollection.dbo.Beer'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+ClientConnectionId:211c830e-7192-47d7-b695-0cf75d7cdb1f
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2024-09-21 17:09:35.788 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.ResultModel'.
+2024-09-21 17:09:35.796 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection) in 981.0927ms
+2024-09-21 17:09:35.796 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:09:35.801 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - 200 null application/json; charset=utf-8 1016.0855ms
+2024-09-21 17:12:22.624 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 17:12:22.643 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 17:12:22.644 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 17:12:22.645 +02:00 [INF] Hosting environment: Development
+2024-09-21 17:12:22.645 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 17:12:23.250 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 17:12:23.411 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 166.4553ms
+2024-09-21 17:12:23.414 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 17:12:23.414 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 17:12:23.417 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.2142ms
+2024-09-21 17:12:23.440 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.5364ms
+2024-09-21 17:12:23.472 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 17:12:23.534 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.6136ms
+2024-09-21 17:12:35.141 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/RateBeer?rate=-1&beerId=1 - null 0
+2024-09-21 17:12:35.147 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:12:35.152 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.RateBeer (BeerCollection)'
+2024-09-21 17:12:35.165 +02:00 [INF] Route matched with {action = "RateBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RateBeer(System.Decimal, Int64) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:12:35.281 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.ResultModel'.
+2024-09-21 17:12:35.289 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.RateBeer (BeerCollection) in 121.543ms
+2024-09-21 17:12:35.289 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.RateBeer (BeerCollection)'
+2024-09-21 17:12:35.290 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/RateBeer?rate=-1&beerId=1 - 200 null application/json; charset=utf-8 149.2474ms
+2024-09-21 17:12:44.258 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/RateBeer?rate=5&beerId=1 - null 0
+2024-09-21 17:12:44.259 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:12:44.259 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.RateBeer (BeerCollection)'
+2024-09-21 17:12:44.260 +02:00 [INF] Route matched with {action = "RateBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RateBeer(System.Decimal, Int64) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:12:45.169 +02:00 [INF] Executed DbCommand (25ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:12:45.318 +02:00 [ERR] Failed executing DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (Precision = 1) (Scale = 1) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='60']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [BeerRating] ([BeerId], [Rate])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-09-21 17:12:45.328 +02:00 [ERR] An exception occurred in the database while saving changes for context type 'DAL.Entities.BeerCollectionContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Parameter value '5.0' is out of range.
+   at Microsoft.Data.SqlClient.TdsParser.TDSExecuteRPCAddParameter(TdsParserStateObject stateObj, SqlParameter param, MetaType mt, Byte options, SqlCommand command, Boolean isAnonymous)
+   at Microsoft.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Parameter value '5.0' is out of range.
+   at Microsoft.Data.SqlClient.TdsParser.TDSExecuteRPCAddParameter(TdsParserStateObject stateObj, SqlParameter param, MetaType mt, Byte options, SqlCommand command, Boolean isAnonymous)
+   at Microsoft.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2024-09-21 17:12:45.372 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.ResultModel'.
+2024-09-21 17:12:45.372 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.RateBeer (BeerCollection) in 1112.647ms
+2024-09-21 17:12:45.372 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.RateBeer (BeerCollection)'
+2024-09-21 17:12:45.379 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/RateBeer?rate=5&beerId=1 - 200 null application/json; charset=utf-8 1121.9224ms
+2024-09-21 17:13:02.858 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/RateBeer?rate=5&beerId=1 - null 0
+2024-09-21 17:13:02.859 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:13:02.860 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.RateBeer (BeerCollection)'
+2024-09-21 17:13:02.860 +02:00 [INF] Route matched with {action = "RateBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RateBeer(System.Decimal, Int64) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:13:08.560 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:13:11.558 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:13:34.861 +02:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (Precision = 1) (Scale = 1) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='60']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [BeerRating] ([BeerId], [Rate])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-09-21 17:13:34.862 +02:00 [ERR] An exception occurred in the database while saving changes for context type 'DAL.Entities.BeerCollectionContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Parameter value '5.0' is out of range.
+   at Microsoft.Data.SqlClient.TdsParser.TDSExecuteRPCAddParameter(TdsParserStateObject stateObj, SqlParameter param, MetaType mt, Byte options, SqlCommand command, Boolean isAnonymous)
+   at Microsoft.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> System.ArgumentException: Parameter value '5.0' is out of range.
+   at Microsoft.Data.SqlClient.TdsParser.TDSExecuteRPCAddParameter(TdsParserStateObject stateObj, SqlParameter param, MetaType mt, Byte options, SqlCommand command, Boolean isAnonymous)
+   at Microsoft.Data.SqlClient.TdsParser.TdsExecuteRPC(SqlCommand cmd, _SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc, Boolean sync, TaskCompletionSource`1 completion, Int32 startRpc, Int32 startParam)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass28_0`2.<Execute>b__0(DbContext context, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementation[TState,TResult](Func`3 operation, Func`3 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2024-09-21 17:15:07.254 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 17:15:07.274 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 17:15:07.276 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 17:15:07.276 +02:00 [INF] Hosting environment: Development
+2024-09-21 17:15:07.277 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 17:15:07.735 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 17:15:07.901 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 169.0427ms
+2024-09-21 17:15:07.905 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 17:15:07.905 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 17:15:07.908 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.3329ms
+2024-09-21 17:15:07.932 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.5546ms
+2024-09-21 17:15:07.962 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 17:15:08.024 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.4003ms
+2024-09-21 17:15:24.347 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/RateBeer?rate=5&beerId=1 - null 0
+2024-09-21 17:15:24.354 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:15:24.359 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.RateBeer (BeerCollection)'
+2024-09-21 17:15:24.372 +02:00 [INF] Route matched with {action = "RateBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RateBeer(System.Decimal, Int64) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:15:27.848 +02:00 [INF] Executed DbCommand (24ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:15:31.456 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (Precision = 2) (Scale = 1) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='60']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [BeerRating] ([BeerId], [Rate])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-09-21 17:15:37.321 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.ResultModel'.
+2024-09-21 17:15:37.329 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.RateBeer (BeerCollection) in 12955.3484ms
+2024-09-21 17:15:37.329 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.RateBeer (BeerCollection)'
+2024-09-21 17:15:37.337 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/RateBeer?rate=5&beerId=1 - 200 null application/json; charset=utf-8 12989.7205ms
+2024-09-21 17:15:43.972 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/GetBeerCollection - null null
+2024-09-21 17:15:43.974 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.GetBeerCollection (BeerCollection)'
+2024-09-21 17:15:43.975 +02:00 [INF] Route matched with {action = "GetBeerCollection", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBeerCollection() on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:15:51.023 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+2024-09-21 17:15:51.048 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:15:51.056 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:15:51.057 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:15:51.057 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:15:51.058 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.BeerModel, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-21 17:15:51.065 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.GetBeerCollection (BeerCollection) in 7089.0204ms
+2024-09-21 17:15:51.065 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.GetBeerCollection (BeerCollection)'
+2024-09-21 17:15:51.065 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/BeerCollection/GetBeerCollection - 200 null application/json; charset=utf-8 7092.9403ms
+2024-09-21 17:16:02.972 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/RateBeer?rate=5&beerId=1 - null 0
+2024-09-21 17:16:02.973 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:16:02.974 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.RateBeer (BeerCollection)'
+2024-09-21 17:16:02.974 +02:00 [INF] Route matched with {action = "RateBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RateBeer(System.Decimal, Int64) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:16:02.989 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:16:02.997 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Int64), @p1='?' (Precision = 2) (Scale = 1) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='60']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [BeerRating] ([BeerId], [Rate])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1);
+2024-09-21 17:16:02.997 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.ResultModel'.
+2024-09-21 17:16:02.998 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.RateBeer (BeerCollection) in 23.5528ms
+2024-09-21 17:16:02.998 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.RateBeer (BeerCollection)'
+2024-09-21 17:16:02.998 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/RateBeer?rate=5&beerId=1 - 200 null application/json; charset=utf-8 26.0321ms
+2024-09-21 17:16:06.056 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/api/BeerCollection/GetBeerCollection - null null
+2024-09-21 17:16:06.056 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.GetBeerCollection (BeerCollection)'
+2024-09-21 17:16:06.056 +02:00 [INF] Route matched with {action = "GetBeerCollection", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetBeerCollection() on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:16:06.058 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+2024-09-21 17:16:06.059 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:16:06.060 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:16:06.061 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:16:06.061 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT [b].[Id], [b].[BeerId], [b].[Rate]
+FROM [BeerRating] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:16:06.061 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Models.BeerModel, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-21 17:16:06.061 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.GetBeerCollection (BeerCollection) in 5.1064ms
+2024-09-21 17:16:06.062 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.GetBeerCollection (BeerCollection)'
+2024-09-21 17:16:06.062 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/api/BeerCollection/GetBeerCollection - 200 null application/json; charset=utf-8 6.4976ms
+2024-09-21 17:16:15.460 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/RateBeer?rate=5&beerId=6 - null 0
+2024-09-21 17:16:15.460 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:16:15.460 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.RateBeer (BeerCollection)'
+2024-09-21 17:16:15.460 +02:00 [INF] Route matched with {action = "RateBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RateBeer(System.Decimal, Int64) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:16:15.463 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:16:15.464 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.ResultModel'.
+2024-09-21 17:16:15.464 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.RateBeer (BeerCollection) in 4.2792ms
+2024-09-21 17:16:15.464 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.RateBeer (BeerCollection)'
+2024-09-21 17:16:15.465 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/RateBeer?rate=5&beerId=6 - 200 null application/json; charset=utf-8 5.3337ms
+2024-09-21 17:17:02.504 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 17:17:02.523 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 17:17:02.525 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 17:17:02.525 +02:00 [INF] Hosting environment: Development
+2024-09-21 17:17:02.525 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 17:17:03.104 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 17:17:03.268 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 167.9942ms
+2024-09-21 17:17:03.272 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 17:17:03.272 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 17:17:03.279 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 6.4336ms
+2024-09-21 17:17:03.306 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.2092ms
+2024-09-21 17:17:03.333 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 17:17:03.398 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 65.2792ms
+2024-09-21 17:17:10.940 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - application/json 57
+2024-09-21 17:17:10.947 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:17:10.952 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:17:10.965 +02:00 [INF] Route matched with {action = "AddEditBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEditBeer(Models.BeerModel) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:17:11.876 +02:00 [INF] Executed DbCommand (29ms) [Parameters=[@p0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Beer] ([Name])
+OUTPUT INSERTED.[BeerId]
+VALUES (@p0);
+2024-09-21 17:17:11.906 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.ResultModel'.
+2024-09-21 17:17:11.912 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection) in 944.5271ms
+2024-09-21 17:17:11.913 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:17:11.918 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - 200 null application/json; charset=utf-8 978.5737ms
+2024-09-21 17:17:21.445 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - application/json 0
+2024-09-21 17:17:21.446 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:17:21.447 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:17:21.447 +02:00 [INF] Route matched with {action = "AddEditBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEditBeer(Models.BeerModel) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:17:21.451 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Models.ModelStateError'.
+2024-09-21 17:17:21.452 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection) in 5.506ms
+2024-09-21 17:17:21.453 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:17:21.453 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - 400 null application/json; charset=utf-8 8.5177ms
+2024-09-21 17:17:37.137 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - application/json 18
+2024-09-21 17:17:37.137 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:17:37.138 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:17:37.138 +02:00 [INF] Route matched with {action = "AddEditBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEditBeer(Models.BeerModel) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:17:37.150 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Models.ModelStateError'.
+2024-09-21 17:17:37.150 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection) in 11.7644ms
+2024-09-21 17:17:37.150 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:17:37.150 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - 400 null application/json; charset=utf-8 13.7096ms
+2024-09-21 17:17:45.731 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - application/json 17
+2024-09-21 17:17:45.732 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:17:45.732 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:17:45.732 +02:00 [INF] Route matched with {action = "AddEditBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEditBeer(Models.BeerModel) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:17:45.733 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Models.ModelStateError'.
+2024-09-21 17:17:45.733 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection) in 0.806ms
+2024-09-21 17:17:45.733 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:17:45.733 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - 400 null application/json; charset=utf-8 1.9254ms
+2024-09-21 17:21:00.788 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - application/json 43
+2024-09-21 17:21:00.792 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:21:00.792 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:21:00.792 +02:00 [INF] Route matched with {action = "AddEditBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEditBeer(Models.BeerModel) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:21:00.793 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Models.ModelStateError'.
+2024-09-21 17:21:00.794 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection) in 1.3077ms
+2024-09-21 17:21:00.794 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:21:00.794 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - 400 null application/json; charset=utf-8 6.2715ms
+2024-09-21 17:21:10.420 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - application/json 42
+2024-09-21 17:21:10.421 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:21:10.421 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:21:10.421 +02:00 [INF] Route matched with {action = "AddEditBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEditBeer(Models.BeerModel) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:21:10.475 +02:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Beer] ([Name])
+OUTPUT INSERTED.[BeerId]
+VALUES (@p0);
+2024-09-21 17:21:10.476 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.ResultModel'.
+2024-09-21 17:21:10.476 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection) in 55.0023ms
+2024-09-21 17:21:10.476 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:21:10.476 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - 200 null application/json; charset=utf-8 56.0162ms
+2024-09-21 17:21:29.511 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - application/json 43
+2024-09-21 17:21:29.511 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:21:29.511 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:21:29.512 +02:00 [INF] Route matched with {action = "AddEditBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEditBeer(Models.BeerModel) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:21:29.771 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:21:29.794 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[@p1='?' (DbType = Int64), @p0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Beer] SET [Name] = @p0
+OUTPUT 1
+WHERE [BeerId] = @p1;
+2024-09-21 17:21:29.795 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.ResultModel'.
+2024-09-21 17:21:29.796 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection) in 284.0271ms
+2024-09-21 17:21:29.796 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:21:29.796 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - 200 null application/json; charset=utf-8 285.0757ms
+2024-09-21 17:21:40.614 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - application/json 42
+2024-09-21 17:21:40.615 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:21:40.615 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:21:40.615 +02:00 [INF] Route matched with {action = "AddEditBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEditBeer(Models.BeerModel) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:21:40.620 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:21:40.629 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[@p1='?' (DbType = Int64), @p0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='60']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Beer] SET [Name] = @p0
+OUTPUT 1
+WHERE [BeerId] = @p1;
+2024-09-21 17:21:40.630 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.ResultModel'.
+2024-09-21 17:21:40.630 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection) in 15.128ms
+2024-09-21 17:21:40.630 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:21:40.630 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - 200 null application/json; charset=utf-8 15.9388ms
+2024-09-21 17:21:48.497 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - application/json 42
+2024-09-21 17:21:48.497 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:21:48.497 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:21:48.497 +02:00 [INF] Route matched with {action = "AddEditBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEditBeer(Models.BeerModel) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:21:48.501 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='60']
+SELECT TOP(1) [b].[BeerId], [b].[Name]
+FROM [Beer] AS [b]
+WHERE [b].[BeerId] = @__p_0
+2024-09-21 17:21:48.501 +02:00 [INF] Executing OkObjectResult, writing value of type 'Models.ResultModel'.
+2024-09-21 17:21:48.501 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection) in 3.8888ms
+2024-09-21 17:21:48.501 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:21:48.501 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - 200 null application/json; charset=utf-8 4.7928ms
+2024-09-21 17:22:44.059 +02:00 [INF] Now listening on: https://localhost:7145
+2024-09-21 17:22:44.078 +02:00 [INF] Now listening on: http://localhost:5158
+2024-09-21 17:22:44.080 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-21 17:22:44.080 +02:00 [INF] Hosting environment: Development
+2024-09-21 17:22:44.080 +02:00 [INF] Content root path: C:\Users\asjan\source\repos\BeerCollection\BeerCollection
+2024-09-21 17:22:44.533 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/index.html - null null
+2024-09-21 17:22:44.705 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/index.html - 200 null text/html;charset=utf-8 176.0936ms
+2024-09-21 17:22:44.711 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_vs/browserLink - null null
+2024-09-21 17:22:44.711 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-21 17:22:44.715 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 3.8882ms
+2024-09-21 17:22:44.736 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.9202ms
+2024-09-21 17:22:44.769 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - null null
+2024-09-21 17:22:44.838 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7145/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 69.3447ms
+2024-09-21 17:22:59.356 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - application/json 20
+2024-09-21 17:22:59.362 +02:00 [INF] CORS policy execution successful.
+2024-09-21 17:22:59.367 +02:00 [INF] Executing endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:22:59.379 +02:00 [INF] Route matched with {action = "AddEditBeer", controller = "BeerCollection"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEditBeer(Models.BeerModel) on controller BeerCollection.Controllers.BeerCollectionController (BeerCollection).
+2024-09-21 17:22:59.512 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Models.ModelStateError'.
+2024-09-21 17:22:59.521 +02:00 [INF] Executed action BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection) in 139.0029ms
+2024-09-21 17:22:59.521 +02:00 [INF] Executed endpoint 'BeerCollection.Controllers.BeerCollectionController.AddEditBeer (BeerCollection)'
+2024-09-21 17:22:59.522 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7145/api/BeerCollection/AddEditBeer - 400 null application/json; charset=utf-8 166.4691ms

@@ -1,0 +1,14 @@
+C:\Users\asjan\source\repos\BeerCollection\CheckSudoku\bin\Debug\net8.0\SudokuValidate.exe
+C:\Users\asjan\source\repos\BeerCollection\CheckSudoku\bin\Debug\net8.0\SudokuValidate.deps.json
+C:\Users\asjan\source\repos\BeerCollection\CheckSudoku\bin\Debug\net8.0\SudokuValidate.runtimeconfig.json
+C:\Users\asjan\source\repos\BeerCollection\CheckSudoku\bin\Debug\net8.0\SudokuValidate.dll
+C:\Users\asjan\source\repos\BeerCollection\CheckSudoku\bin\Debug\net8.0\SudokuValidate.pdb
+C:\Users\asjan\source\repos\BeerCollection\CheckSudoku\obj\Debug\net8.0\SudokuValidate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asjan\source\repos\BeerCollection\CheckSudoku\obj\Debug\net8.0\SudokuValidate.AssemblyInfoInputs.cache
+C:\Users\asjan\source\repos\BeerCollection\CheckSudoku\obj\Debug\net8.0\SudokuValidate.AssemblyInfo.cs
+C:\Users\asjan\source\repos\BeerCollection\CheckSudoku\obj\Debug\net8.0\SudokuValidate.csproj.CoreCompileInputs.cache
+C:\Users\asjan\source\repos\BeerCollection\CheckSudoku\obj\Debug\net8.0\SudokuValidate.dll
+C:\Users\asjan\source\repos\BeerCollection\CheckSudoku\obj\Debug\net8.0\refint\SudokuValidate.dll
+C:\Users\asjan\source\repos\BeerCollection\CheckSudoku\obj\Debug\net8.0\SudokuValidate.pdb
+C:\Users\asjan\source\repos\BeerCollection\CheckSudoku\obj\Debug\net8.0\SudokuValidate.genruntimeconfig.cache
+C:\Users\asjan\source\repos\BeerCollection\CheckSudoku\obj\Debug\net8.0\ref\SudokuValidate.dll
