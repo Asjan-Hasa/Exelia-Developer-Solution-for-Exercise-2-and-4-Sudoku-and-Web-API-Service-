@@ -1,0 +1,313 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0F083AE-F44F-4579-90A3-DF95350E6322}|CheckSudoku\\CheckSudoku.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\checksudoku\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0F083AE-F44F-4579-90A3-DF95350E6322}|CheckSudoku\\CheckSudoku.csproj|solutionrelative:checksudoku\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\beercollection\\actionfilters\\validatemodelfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|solutionrelative:beercollection\\actionfilters\\validatemodelfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1EC06BB-026D-4CF5-A99B-47B0B7174844}|Models\\Models.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\models\\beermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1EC06BB-026D-4CF5-A99B-47B0B7174844}|Models\\Models.csproj|solutionrelative:models\\beermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\beercollection\\controllers\\beercollectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|solutionrelative:beercollection\\controllers\\beercollectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5568BEBF-F849-4C5F-BFE8-89B25B062E8C}|DAL\\DAL.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\dal\\repositories\\implementation\\beercollectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5568BEBF-F849-4C5F-BFE8-89B25B062E8C}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\implementation\\beercollectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5568BEBF-F849-4C5F-BFE8-89B25B062E8C}|DAL\\DAL.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\dal\\baserepository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5568BEBF-F849-4C5F-BFE8-89B25B062E8C}|DAL\\DAL.csproj|solutionrelative:dal\\baserepository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5568BEBF-F849-4C5F-BFE8-89B25B062E8C}|DAL\\DAL.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\dal\\entities\\dbo\\beerrating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5568BEBF-F849-4C5F-BFE8-89B25B062E8C}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\dbo\\beerrating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5568BEBF-F849-4C5F-BFE8-89B25B062E8C}|DAL\\DAL.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\dal\\entities\\configurations\\beerratingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5568BEBF-F849-4C5F-BFE8-89B25B062E8C}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\configurations\\beerratingconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5568BEBF-F849-4C5F-BFE8-89B25B062E8C}|DAL\\DAL.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\dal\\entities\\configurations\\beerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5568BEBF-F849-4C5F-BFE8-89B25B062E8C}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\configurations\\beerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5568BEBF-F849-4C5F-BFE8-89B25B062E8C}|DAL\\DAL.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\dal\\mappings\\beermapping\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5568BEBF-F849-4C5F-BFE8-89B25B062E8C}|DAL\\DAL.csproj|solutionrelative:dal\\mappings\\beermapping\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\beercollection\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|solutionrelative:beercollection\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\beercollection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|solutionrelative:beercollection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\beercollection\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|solutionrelative:beercollection\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\beercollection\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|solutionrelative:beercollection\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\beercollection\\middlewares\\exceptiionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|solutionrelative:beercollection\\middlewares\\exceptiionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5568BEBF-F849-4C5F-BFE8-89B25B062E8C}|DAL\\DAL.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\dal\\entities\\dbo\\beer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5568BEBF-F849-4C5F-BFE8-89B25B062E8C}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\dbo\\beer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC7DC8A-D65D-4922-A7A3-09DAD0DCB933}|BLL\\BLL.csproj|c:\\users\\asjan\\source\\repos\\beercollection\\bll\\services\\implementation\\beercollectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC7DC8A-D65D-4922-A7A3-09DAD0DCB933}|BLL\\BLL.csproj|solutionrelative:bll\\services\\implementation\\beercollectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\CheckSudoku\\Program.cs",
+              "RelativeDocumentMoniker": "CheckSudoku\\Program.cs",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\CheckSudoku\\Program.cs",
+              "RelativeToolTip": "CheckSudoku\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T20:13:31.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValidateModelFilter.cs",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BeerCollection\\ActionFilters\\ValidateModelFilter.cs",
+              "RelativeDocumentMoniker": "BeerCollection\\ActionFilters\\ValidateModelFilter.cs",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BeerCollection\\ActionFilters\\ValidateModelFilter.cs",
+              "RelativeToolTip": "BeerCollection\\ActionFilters\\ValidateModelFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:23:14.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BeerModel.cs",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\Models\\BeerModel.cs",
+              "RelativeDocumentMoniker": "Models\\BeerModel.cs",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\Models\\BeerModel.cs",
+              "RelativeToolTip": "Models\\BeerModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:22:22.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BeerRating.cs",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\DAL\\Entities\\dbo\\BeerRating.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\dbo\\BeerRating.cs",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\DAL\\Entities\\dbo\\BeerRating.cs",
+              "RelativeToolTip": "DAL\\Entities\\dbo\\BeerRating.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwBAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:14:53.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BeerCollectionController.cs",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BeerCollection\\Controllers\\BeerCollectionController.cs",
+              "RelativeDocumentMoniker": "BeerCollection\\Controllers\\BeerCollectionController.cs",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BeerCollection\\Controllers\\BeerCollectionController.cs",
+              "RelativeToolTip": "BeerCollection\\Controllers\\BeerCollectionController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA5wBkAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T14:36:30.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BeerCollectionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\DAL\\Repositories\\Implementation\\BeerCollectionRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\Implementation\\BeerCollectionRepository.cs",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\DAL\\Repositories\\Implementation\\BeerCollectionRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\Implementation\\BeerCollectionRepository.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAowDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T22:08:54.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\DAL\\BaseRepository\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "DAL\\BaseRepository\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\DAL\\BaseRepository\\RepositoryBase.cs",
+              "RelativeToolTip": "DAL\\BaseRepository\\RepositoryBase.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAowCIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T10:23:20.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BeerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\DAL\\Entities\\Configurations\\BeerConfiguration.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Configurations\\BeerConfiguration.cs",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\DAL\\Entities\\Configurations\\BeerConfiguration.cs",
+              "RelativeToolTip": "DAL\\Entities\\Configurations\\BeerConfiguration.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:14:24.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BeerRatingConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\DAL\\Entities\\Configurations\\BeerRatingConfiguration.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\Configurations\\BeerRatingConfiguration.cs",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\DAL\\Entities\\Configurations\\BeerRatingConfiguration.cs",
+              "RelativeToolTip": "DAL\\Entities\\Configurations\\BeerRatingConfiguration.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwA0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:14:35.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BeerCollection\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "BeerCollection\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BeerCollection\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "BeerCollection\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwCgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T14:38:58.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Mapping.cs",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\DAL\\Mappings\\BeerMapping\\Mapping.cs",
+              "RelativeDocumentMoniker": "DAL\\Mappings\\BeerMapping\\Mapping.cs",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\DAL\\Mappings\\BeerMapping\\Mapping.cs",
+              "RelativeToolTip": "DAL\\Mappings\\BeerMapping\\Mapping.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAQwA0AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T14:36:14.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BeerCollection\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "BeerCollection\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BeerCollection\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "BeerCollection\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T14:59:46.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BeerCollection\\appsettings.json",
+              "RelativeDocumentMoniker": "BeerCollection\\appsettings.json",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BeerCollection\\appsettings.json",
+              "RelativeToolTip": "BeerCollection\\appsettings.json",
+              "ViewState": "AQIAAAUAAAAAAAAAAABRwBYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-21T14:35:19.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BeerCollection\\Program.cs",
+              "RelativeDocumentMoniker": "BeerCollection\\Program.cs",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BeerCollection\\Program.cs",
+              "RelativeToolTip": "BeerCollection\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAIBJwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:56:27.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExceptiionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BeerCollection\\Middlewares\\ExceptiionMiddleware.cs",
+              "RelativeDocumentMoniker": "BeerCollection\\Middlewares\\ExceptiionMiddleware.cs",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BeerCollection\\Middlewares\\ExceptiionMiddleware.cs",
+              "RelativeToolTip": "BeerCollection\\Middlewares\\ExceptiionMiddleware.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T14:20:29.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Beer.cs",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\DAL\\Entities\\dbo\\Beer.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\dbo\\Beer.cs",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\DAL\\Entities\\dbo\\Beer.cs",
+              "RelativeToolTip": "DAL\\Entities\\dbo\\Beer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T10:22:05.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BeerCollectionService.cs",
+              "DocumentMoniker": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BLL\\Services\\Implementation\\BeerCollectionService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\Implementation\\BeerCollectionService.cs",
+              "ToolTip": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BLL\\Services\\Implementation\\BeerCollectionService.cs",
+              "RelativeToolTip": "BLL\\Services\\Implementation\\BeerCollectionService.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAswBsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T09:45:34.43Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

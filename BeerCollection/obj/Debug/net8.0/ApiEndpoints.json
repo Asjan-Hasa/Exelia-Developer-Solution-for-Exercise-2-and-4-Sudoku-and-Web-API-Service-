@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "BeerCollection.Controllers.BeerCollectionController",
+    "Method": "AddEditBeer",
+    "RelativePath": "api/BeerCollection/AddEditBeer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "beerModel",
+        "Type": "Models.BeerModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BeerCollection.Controllers.BeerCollectionController",
+    "Method": "GetBeerCollection",
+    "RelativePath": "api/BeerCollection/GetBeerCollection",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BeerCollection.Controllers.BeerCollectionController",
+    "Method": "RateBeer",
+    "RelativePath": "api/BeerCollection/RateBeer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rate",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "beerId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BeerCollection.Controllers.BeerCollectionController",
+    "Method": "SearchBeer",
+    "RelativePath": "api/BeerCollection/SearchBeer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
