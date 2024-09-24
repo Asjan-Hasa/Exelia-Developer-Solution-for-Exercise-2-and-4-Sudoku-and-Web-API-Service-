@@ -2968,19 +2968,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\asjan\\.nuget\\packages\\": {}
+    "C:\\Users\\asjhasa\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BLL\\BLL.csproj",
+      "projectUniqueName": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BLL\\BLL.csproj",
-      "packagesPath": "C:\\Users\\asjan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\BLL\\obj\\",
+      "projectPath": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\BLL\\BLL.csproj",
+      "packagesPath": "C:\\Users\\asjhasa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\asjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\asjhasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2995,8 +2995,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\asjan\\source\\repos\\BeerCollection\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\DAL\\DAL.csproj"
+            "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\DAL\\DAL.csproj"
             }
           }
         }
@@ -3031,7 +3031,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

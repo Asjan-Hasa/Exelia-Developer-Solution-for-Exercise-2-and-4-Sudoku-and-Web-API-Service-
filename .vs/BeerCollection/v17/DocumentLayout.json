@@ -23,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|solutionrelative:beercollection\\controllers\\beercollectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|c:\\users\\asjhasa\\source\\repos\\beercollection\\beercollection\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|solutionrelative:beercollection\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|c:\\users\\asjhasa\\source\\repos\\beercollection\\beercollection\\actionfilters\\validatemodelfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{138903EB-F491-4CAF-9E7D-D47A57AB779A}|BeerCollection\\BeerCollection.csproj|solutionrelative:beercollection\\actionfilters\\validatemodelfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -78,20 +74,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\BeerCollection\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "BeerCollection\\Controllers\\BaseController.cs",
-              "ToolTip": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\BeerCollection\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "BeerCollection\\Controllers\\BaseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T14:59:46.812Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -131,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ValidateModelFilter.cs",
               "DocumentMoniker": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\BeerCollection\\ActionFilters\\ValidateModelFilter.cs",
               "RelativeDocumentMoniker": "BeerCollection\\ActionFilters\\ValidateModelFilter.cs",
@@ -143,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "BeerRating.cs",
               "DocumentMoniker": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\DAL\\Entities\\dbo\\BeerRating.cs",
               "RelativeDocumentMoniker": "DAL\\Entities\\dbo\\BeerRating.cs",
@@ -155,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "BeerModel.cs",
               "DocumentMoniker": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\Models\\BeerModel.cs",
               "RelativeDocumentMoniker": "Models\\BeerModel.cs",
@@ -167,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "BeerCollectionRepository.cs",
               "DocumentMoniker": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\DAL\\Repositories\\Implementation\\BeerCollectionRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Repositories\\Implementation\\BeerCollectionRepository.cs",
@@ -179,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "RepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\DAL\\BaseRepository\\RepositoryBase.cs",
               "RelativeDocumentMoniker": "DAL\\BaseRepository\\RepositoryBase.cs",
@@ -199,8 +183,7 @@
               "RelativeToolTip": "BeerCollection\\appsettings.json",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-21T14:35:19.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T14:35:19.503Z"
             },
             {
               "$type": "Document",
@@ -216,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "BeerConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\DAL\\Entities\\Configurations\\BeerConfiguration.cs",
               "RelativeDocumentMoniker": "DAL\\Entities\\Configurations\\BeerConfiguration.cs",
@@ -228,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "BeerRatingConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\DAL\\Entities\\Configurations\\BeerRatingConfiguration.cs",
               "RelativeDocumentMoniker": "DAL\\Entities\\Configurations\\BeerRatingConfiguration.cs",
@@ -240,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "ServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\BeerCollection\\Extensions\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "BeerCollection\\Extensions\\ServiceExtensions.cs",
@@ -252,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Mapping.cs",
               "DocumentMoniker": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\DAL\\Mappings\\BeerMapping\\Mapping.cs",
               "RelativeDocumentMoniker": "DAL\\Mappings\\BeerMapping\\Mapping.cs",
@@ -264,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "Beer.cs",
               "DocumentMoniker": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\DAL\\Entities\\dbo\\Beer.cs",
               "RelativeDocumentMoniker": "DAL\\Entities\\dbo\\Beer.cs",
@@ -276,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "BeerCollectionService.cs",
               "DocumentMoniker": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\BLL\\Services\\Implementation\\BeerCollectionService.cs",
               "RelativeDocumentMoniker": "BLL\\Services\\Implementation\\BeerCollectionService.cs",

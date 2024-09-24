@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asjan\\source\\repos\\BeerCollection\\CheckSudoku\\SudokuValidate.csproj": {}
+    "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\CheckSudoku\\SudokuValidate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asjan\\source\\repos\\BeerCollection\\CheckSudoku\\SudokuValidate.csproj": {
+    "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\CheckSudoku\\SudokuValidate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\CheckSudoku\\SudokuValidate.csproj",
+        "projectUniqueName": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\CheckSudoku\\SudokuValidate.csproj",
         "projectName": "SudokuValidate",
-        "projectPath": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\CheckSudoku\\SudokuValidate.csproj",
-        "packagesPath": "C:\\Users\\asjan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asjan\\source\\repos\\BeerCollection\\CheckSudoku\\obj\\",
+        "projectPath": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\CheckSudoku\\SudokuValidate.csproj",
+        "packagesPath": "C:\\Users\\asjhasa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\asjhasa\\source\\repos\\BeerCollection\\CheckSudoku\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\asjan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asjhasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
